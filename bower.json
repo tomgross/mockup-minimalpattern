@@ -1,0 +1,13 @@
+{
+  "name": "mockup-minimalpattern",
+  "description": "Minimal pattern for learning pattern creation",
+  "dependencies": {
+    "jquery": "",
+    "mockup": "",
+    "mockup-core": ""
+  },
+  "devDependencies": {
+    "expect": "",
+    "sinonjs": ""
+  }
+}
