@@ -33,6 +33,7 @@ define([
 
   var Minimalpattern = Base.extend({
     name: 'minimalpattern',
+    trigger: '.pat-minimalpattern',
     defaults: {
       text: 'ey, ya!'
     },
