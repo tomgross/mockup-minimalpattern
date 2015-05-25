@@ -30,6 +30,12 @@ require([
             title: 'Minimalpattern',  // pattern title.
             description: 'A minimal pattern',  // pattern description.
             url: 'patterns/minimalpattern/pattern.js'  // path to the pattern within the project structure.
+          },
+          { // Carousel
+            id: 'carousel',  // pattern id.
+            title: 'Carousel',  // pattern title.
+            description: 'A carousel pattern',  // pattern description.
+            url: 'bower_components/patternslib/src/pat/carousel.js'  // path to the pattern within the project structure.
           }
         ]
       }

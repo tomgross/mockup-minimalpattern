@@ -14,6 +14,7 @@
       'pat-utils': 'bower_components/patternslib/src/core/utils',
       'pat-jquery-ext': 'bower_components/patternslib/src/core/jquery-ext',
       'pat-logger': 'bower_components/patternslib/src/core/logger',
+      'pat-parser': 'bower_components/mockup-core/js/parser',
       'pat-registry': 'bower_components/mockup-core/js/registry',
       'logging': 'bower_components/logging/src/logging',
       'mockup-patterns-minimalpattern': 'patterns/minimalpattern/pattern',
@@ -35,12 +36,13 @@
       'bootstrap-collapse': 'bower_components/bootstrap/js/collapse',
       'bootstrap-transition': 'bower_components/bootstrap/js/transition',
       'expect': 'bower_components/expect/index',
-      //'jquery': 'bower_components/jquery/dist/jquery',  // Well, that's a duplicate.
       'marked': 'bower_components/marked/lib/marked',
       'react': 'bower_components/react/react',
       'sinon': 'bower_components/sinonjs/sinon',
       'text': 'bower_components/requirejs-text/text',
-      'underscore': 'bower_components/lodash/dist/lodash.underscore'
+      'underscore': 'bower_components/lodash/dist/lodash.underscore',
+      'jquery.anythingslider': 'bower_components/AnythingSlider/js/jquery.anythingslider',
+      'mockup-patterns-carousel': 'bower_components/patternslib/src/pat/carousel'
     },
     shim: {
       // This package's shims (None). Shims are libraries, which are not
@@ -53,6 +55,7 @@
       'bootstrap-transition': {exports: 'window.jQuery.support.transition', deps: ['jquery']},
       'expect': {exports: 'window.expect'},
       'sinon': {exports: 'window.sinon'},
+      "jquery.anythingslider":        { deps: ["jquery"] },
       'underscore': {exports: 'window._'}
     },
     wrapShim: true
